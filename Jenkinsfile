@@ -49,20 +49,11 @@ pipeline {
             }
         }
 
-stage('Enviroment Analysis') {
-
-    parallel {
-
         stage('Printing All Global Variables') {
             steps {
                 sh """
                 env
                 """
-            }
-     e'){
-            steps{
-                sh "echo $(APP_ENV)"
-            }
-        }
+            
     }
 }
