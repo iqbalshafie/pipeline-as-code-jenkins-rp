@@ -54,6 +54,7 @@ pipeline {
                 sh """
                 env
                 """
-            
+            }
+        }
     }
 }
