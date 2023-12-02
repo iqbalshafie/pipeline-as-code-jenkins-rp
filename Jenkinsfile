@@ -67,7 +67,7 @@ pipeline {
 }
         stage('Print ENV variable'){
             steps{
-                sh "echo $(APP_ENV)"
+                sh "echo ${APP_ENV}"
             }
         }
     }
